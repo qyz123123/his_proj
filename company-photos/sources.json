@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ibm",
+    "file": "company-photos/ibm/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IBM_logo.svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM_logo.svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "hp",
+    "file": "company-photos/hp/downloaded.png",
+    "sourcePage": "https://en.wikipedia.org/wiki/HP_Inc.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HP_logo_2025.svg/1280px-HP_logo_2025.svg.png",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "intel",
+    "file": "company-photos/intel/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Intel_logo_(2020,_dark_blue).svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Intel_logo_(2020,_dark_blue).svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "microsoft",
+    "file": "company-photos/microsoft/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_(2012).svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "apple",
+    "file": "company-photos/apple/downloaded.png",
+    "sourcePage": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "oracle",
+    "file": "company-photos/oracle/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Oracle_logo.svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oracle_logo.svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "cisco",
+    "file": "company-photos/cisco/downloaded.png",
+    "sourcePage": "https://en.wikipedia.org/wiki/Cisco",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/250px-Cisco_logo_blue_2016.svg.png",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "dell",
+    "file": "company-photos/dell/downloaded.png",
+    "sourcePage": "https://en.wikipedia.org/wiki/Dell",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/120px-Dell_logo_2016.svg.png",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "nvidia",
+    "file": "company-photos/nvidia/downloaded.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Nvidia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/3840px-2788-2888_San_Tomas_Expwy.jpg",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "amazon",
+    "file": "company-photos/amazon/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_logo.svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "google",
+    "file": "company-photos/google/downloaded.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Google",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_(cropped).jpg",
+    "licenseNote": "Downloaded from Wikipedia/Wikimedia page summary for educational use; verify the file license on the linked source page before redistribution."
+  },
+  {
+    "id": "meta",
+    "file": "company-photos/meta/downloaded.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Inc._logo.svg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Platforms_Inc._logo.svg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "windows-31",
+    "file": "company-photos/windows-31/downloaded.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.1_20230929_29_09_2023_13_31_45.png",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VirtualBox%20Windows%203.1%2020230929%2029%2009%202023%2013%2031%2045.png",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "macbook-air",
+    "file": "company-photos/macbook-air/downloaded.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Macbook_Air.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Macbook_Air.png",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "moores-law",
+    "file": "company-photos/moores-law/downloaded.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Moore%27s_Law_Transistor_Count_1970-2020.png",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "mouse",
+    "file": "company-photos/mouse/downloaded.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart%27s_prototype_mouse_-_Computer_History_Museum.jpg",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20Engelbart%27s%20prototype%20mouse%20-%20Computer%20History%20Museum.jpg",
+    "licenseNote": "Downloaded from Wikimedia Commons for educational use; verify the file license on the source page before redistribution."
+  },
+  {
+    "id": "intel-4004",
+    "file": "company-photos/intel-4004/downloaded.jpg",
+    "sourcePage": "content/ved/Intel_C4004.jpg",
+    "imageUrl": "content/ved/Intel_C4004.jpg",
+    "licenseNote": "Provided locally in the workspace and copied into the Intel 4004 product image slot."
+  }
+]

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f2f6fb"/>
+      <stop offset="1" stop-color="#184a91" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#184a91" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+  <circle cx="1005" cy="146" r="116" fill="#184a91" opacity="0.13"/>
+  <circle cx="170" cy="752" r="150" fill="#184a91" opacity="0.08"/>
+  <g filter="url(#shadow)" transform="rotate(-3 600 450)">
+    <rect x="190" y="175" width="820" height="550" rx="24" fill="url(#card)" stroke="#184a91" stroke-opacity="0.55" stroke-width="4"/>
+    <rect x="228" y="218" width="744" height="464" rx="18" fill="none" stroke="#fff" stroke-opacity="0.54" stroke-width="4"/>
+    <line x1="278" y1="612" x2="922" y2="612" stroke="#fff" stroke-opacity="0.36" stroke-width="3"/>
+    <text x="600" y="397" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="86" font-weight="800" fill="#fff">大型机</text>
+    <text x="600" y="478" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#fff" opacity="0.92">IBM · 核心技术</text>
+  </g>
+  <text x="80" y="96" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#1f1f1f">IBM</text>
+  <text x="80" y="142" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#666">美国科技公司历史商品图 · 核心技术</text>
+  <text x="1080" y="820" text-anchor="end" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#ff5000">¥1911</text>
+</svg>

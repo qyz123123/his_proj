@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>淘宝</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="shortcut icon" type="image/png" href="pagelogo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-nav">
+    <div class="site-nav-bd">
+      <div class="site-nav-left">
+        <button type="button">中国大陆⌄</button>
+        <button type="button">tb6374190⌄</button>
+        <a href="#/" data-nav-action="learn">网页无障碍</a>
+      </div>
+      <div class="site-nav-right">
+        <a href="#/" data-nav-action="home">淘宝网首页</a>
+        <a href="#/" data-nav-action="learn">已买到的宝贝</a>
+        <a href="#/" data-nav-action="learn">我的淘宝⌄</a>
+        <a href="#/" data-nav-action="timeline" class="cart-link"><span aria-hidden="true">⌔</span> 购物车 96</a>
+        <a href="#/" data-nav-action="learn">收藏夹⌄</a>
+        <a href="#/" data-nav-action="learn">免费开店⌄</a>
+        <a href="#/" data-nav-action="learn">千牛卖家中心⌄</a>
+        <a href="#footer" data-nav-action="footer">帮助中心⌄</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header tbpc-layout">
+    <a class="brand" href="#/" aria-label="淘宝首页" data-nav-action="home">
+      <img class="brand-logo-img" src="logo.png" alt="淘宝">
+    </a>
+    <div class="header-search-group">
+      <form class="search-box" id="search-form">
+        <textarea id="search-input" rows="1" aria-label="搜索公司历史">美国科技公司如何普及了个人电脑</textarea>
+        <button class="search-btn" type="submit">搜索</button>
+      </form>
+      <button class="similar-btn" type="button" id="similar-btn" aria-label="搜同款">
+        <span class="camera-icon" aria-hidden="true"></span>
+        <span>搜同款</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" class="tbpc-layout"></main>
+
+  <footer class="footer" id="footer">
+    <div class="tbpc-layout footer-inner">
+      <p>用电商网站的方式学习美国科技公司历史</p>
+      <nav>
+        <a href="#footer">关于项目</a>
+        <a href="#footer">资料来源</a>
+        <a href="#/" data-nav-action="learn">课堂展示</a>
+        <a href="#/" data-nav-action="timeline">时间线</a>
+        <a href="#/" data-nav-action="learn">公司索引</a>
+      </nav>
+      <small>本网站为历史课程项目，仅用于教育展示。页面风格参考电商网站结构，内容为科技史学习资料。</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
