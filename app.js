@@ -9,12 +9,35 @@ const filters = ["综合", "销量", "价格", "区间", "520告白季 8.5折起
 const promos = [
   { title: "美国科技公司发展史｜从大型机到人工智能", subtitle: "一页看懂信息技术产业百年变化", tab: "所有宝贝", filter: "综合" },
   { title: "软件产品专区", subtitle: "Microsoft · Windows 3.1 · Mouse", tab: "淘宝", filter: "综合" },
-  { title: "硬件与芯片专区", subtitle: "Intel · MacBook Air · Moore’s Law", tab: "所有宝贝", filter: "综合" },
-  { title: "互联网平台专区", subtitle: "Google · 搜索引擎 · 信息入口", tab: "天猫", filter: "综合" },
-  { title: "AI时代新品上架", subtitle: "GPU · Cloud · Search · Data · Automation", tab: "所有宝贝", filter: "新品" }
+  { title: "硬件与芯片专区", subtitle: "Intel · MacBook Air · Intel 4004", tab: "所有宝贝", filter: "综合" },
+  { title: "项目导览专区", subtitle: "Intro · DQ · Personal Computer Adoption", tab: "所有宝贝", filter: "综合" },
+  { title: "AI时代新品上架", subtitle: "Cloud · Chips · Data · Automation", tab: "所有宝贝", filter: "新品" }
 ];
 
 const companies = [
+  {
+    id: "intro",
+    name: "Intro",
+    title: "Intro｜项目导览与核心问题说明",
+    detailTitle: "Intro | How This Website Answers the Driving Question",
+    price: "¥2026.6",
+    year: "2026.6",
+    yearLabel: "项目时间",
+    desc: "导览本网站的核心问题：美国科技产品如何推动个人电脑普及。",
+    viewed: "100人学习",
+    detailViewed: "100人正在学习",
+    location: "课堂",
+    detailLocation: "历史课程项目",
+    badges: ["项目导览", "必看科技"],
+    store: "课程说明馆",
+    categories: ["软件", "硬件", "芯片", "企业服务"],
+    tab: "所有宝贝",
+    initials: "Intro",
+    color: "#ff5000",
+    short: "This introduction explains the driving question and shows how each product on the website connects to the wider adoption of personal computers.",
+    timeline: ["1940s: Large electronic computers proved that automatic calculation could transform research and government work", "1960s-1970s: Integrated circuits and microprocessors made smaller computers technically possible", "1980s-1990s: Software, interfaces, and input devices made PCs easier for ordinary users", "2000s: Portable laptops made personal computing part of everyday mobility", "2026.6: This project studies that historical process through product-style learning pages"],
+    impact: "The Intro section frames the website's argument: personal computers spread because U.S. technology products made computing smaller, cheaper, easier to operate, more portable, and more useful in daily life."
+  },
   {
     id: "intel",
     name: "Intel",
@@ -82,28 +105,6 @@ const companies = [
     impact: "Apple made complex technology feel personal, visual, and desirable. Its computers lowered the psychological barrier to computing, and the iPhone made smartphones central to communication, media, photography, and daily life."
   },
   {
-    id: "google",
-    name: "Google",
-    title: "Google 谷歌｜搜索引擎 广告系统 Android生态",
-    detailTitle: "Google 谷歌｜搜索引擎与互联网广告帝国",
-    price: "¥1998",
-    year: "1998",
-    desc: "Google通过搜索算法和广告商业模式重塑了互联网信息获取方式。",
-    viewed: "92人学习",
-    detailViewed: "92人正在学习",
-    location: "加州",
-    detailLocation: "美国 加州 山景城",
-    badges: ["搜索引擎", "互联网平台"],
-    store: "山景城搜索旗舰店",
-    categories: ["互联网", "人工智能", "云计算", "移动设备"],
-    tab: "互联网平台",
-    initials: "G",
-    color: "#4285f4",
-    short: "Google成立于1998年，由Larry Page和Sergey Brin创办。公司以搜索引擎起家，通过PageRank算法提升网页搜索质量，并通过广告系统建立强大的商业模式。后来Google发展出Android、YouTube、Chrome、Google Cloud和AI产品。",
-    timeline: ["1998: Google was founded by Larry Page and Sergey Brin", "2000: Google's advertising system began to develop", "2004: Google went public", "2005: Google acquired Android", "2006: Google acquired YouTube", "2008: Chrome was released", "2015: Alphabet became Google's parent company", "2020s: Google focused heavily on AI and cloud computing"],
-    impact: "Google made the web searchable and made smartphones more useful through Android and cloud services. Search, Maps, YouTube, Gmail, Chrome, and Android helped turn computers and phones into everyday information tools."
-  },
-  {
     id: "windows-31",
     name: "Windows 3.1",
     title: "Windows 3.1｜图形界面软件经典款",
@@ -146,28 +147,6 @@ const companies = [
     short: "The MacBook Air turned the laptop into a symbol of portable everyday computing. Its historical importance was not only that it was thin, but that it helped redefine what ordinary users expected a personal computer to feel like.",
     timeline: ["2008: Steve Jobs introduced the MacBook Air by pulling it from an envelope", "2010: The redesigned Air helped popularize thin solid-state laptops", "2010s: Ultrabooks and lightweight notebooks followed the design direction", "2020: Apple Silicon renewed the Air as a quiet, efficient mainstream laptop"],
     impact: "MacBook Air contributed to personal computer adoption by making the laptop feel lighter, more mobile, and more integrated into daily life. It helped shift the PC from a desk-bound object to a personal companion for school, work, travel, and media."
-  },
-  {
-    id: "moores-law",
-    name: "Moore’s Law",
-    title: "Moore’s Law｜芯片性能增长法则",
-    detailTitle: "Moore’s Law | The Expectation That Computers Would Keep Improving",
-    price: "¥1965",
-    year: "1965",
-    desc: "摩尔定律解释芯片持续进步，也塑造了个人电脑性能不断提升的市场预期。",
-    viewed: "76人学习",
-    detailViewed: "76人正在学习",
-    location: "加州",
-    detailLocation: "美国 加州 圣克拉拉",
-    badges: ["必看科技", "有历史资料"],
-    store: "硬特尔",
-    categories: ["芯片", "硬件"],
-    tab: "芯片与AI",
-    initials: "2x",
-    color: "#0068b5",
-    short: "Moore’s Law was not a consumer product in the usual sense, but it became one of the most powerful ideas behind the personal computer revolution. It created the expectation that computers would become smaller, faster, and cheaper over time.",
-    timeline: ["1965: Gordon Moore observed rapid transistor-density growth", "1970s-1980s: Microprocessors turned that trend into practical personal computers", "1990s: Consumers expected regular PC upgrades and better performance", "2000s: Moore’s Law shaped laptops, mobile chips, and digital devices"],
-    impact: "Moore’s Law contributed to personal computer adoption by making improvement predictable. Users, schools, and businesses bought PCs because the industry repeatedly delivered more capable machines at prices that made personal ownership increasingly realistic."
   },
   {
     id: "mouse",
@@ -216,15 +195,14 @@ const companies = [
 ];
 
 const companyProductOrder = [
+  "intro",
   "intel",
-  "moores-law",
   "intel-4004",
   "microsoft",
   "windows-31",
   "mouse",
   "apple",
-  "macbook-air",
-  "google"
+  "macbook-air"
 ];
 
 const state = {
@@ -357,13 +335,12 @@ function companyScene(company) {
 }
 
 const downloadedCoverFiles = {
+  intro: "cover.png",
   intel: "downloaded.svg",
   microsoft: "downloaded.svg",
   apple: "downloaded.png",
-  google: "downloaded.jpg",
   "windows-31": "downloaded.png",
   "macbook-air": "downloaded.png",
-  "moores-law": "downloaded.png",
   mouse: "downloaded.jpg",
   "intel-4004": "downloaded.jpg"
 };
@@ -438,19 +415,19 @@ function filterCompany(company) {
     case "21世纪公司":
       return Number(company.year) >= 2000;
     case "创新指数高":
-      return ["Apple", "Google", "Microsoft", "Intel", "Windows 3.1", "MacBook Air", "Moore’s Law", "Mouse", "Intel 4004"].includes(company.name);
+      return ["Intro", "Apple", "Microsoft", "Intel", "Windows 3.1", "MacBook Air", "Mouse", "Intel 4004"].includes(company.name);
     case "影响力最大":
-      return ["Microsoft", "Apple", "Google", "Windows 3.1", "Moore’s Law", "Mouse", "Intel 4004"].includes(company.name);
+      return ["Intro", "Microsoft", "Apple", "Windows 3.1", "Mouse", "Intel 4004"].includes(company.name);
     case "仍在运营":
-      return ["Intel", "Microsoft", "Apple", "Google", "Windows 3.1", "MacBook Air", "Moore’s Law", "Mouse", "Intel 4004"].includes(company.name);
+      return ["Intro", "Intel", "Microsoft", "Apple", "Windows 3.1", "MacBook Air", "Mouse", "Intel 4004"].includes(company.name);
     case "上市公司":
-      return ["Intel", "Microsoft", "Apple", "Google", "Windows 3.1", "MacBook Air", "Moore’s Law", "Mouse", "Intel 4004"].includes(company.name);
+      return ["Intel", "Microsoft", "Apple", "Windows 3.1", "MacBook Air", "Mouse", "Intel 4004"].includes(company.name);
     case "硅谷企业":
       return company.detailLocation.includes("加州");
     case "全球化企业":
       return Number(company.year) <= 1998;
     case "改变生活":
-      return company.badges.includes("改变生活") || ["Google", "Windows 3.1", "MacBook Air", "Mouse"].includes(company.name);
+      return company.badges.includes("改变生活") || ["Intro", "Windows 3.1", "MacBook Air", "Mouse"].includes(company.name);
     case "课堂重点":
       return company.badges.includes("课堂重点") || company.badges.includes("必看科技") || ["Intel", "Microsoft", "Apple"].includes(company.name);
     case "筛选":
@@ -696,7 +673,7 @@ function renderDetail(id) {
           <div class="detail-buy">
             <h1>${company.detailTitle}</h1>
             <div class="price-panel">
-              <div class="price-line"><span class="label">价格</span><span class="detail-price">${company.price}</span><span>（创立年份 ${company.year}）</span></div>
+              <div class="price-line"><span class="label">价格</span><span class="detail-price">${company.price}</span><span>（${company.yearLabel || "创立年份"} ${company.year}）</span></div>
               <div class="meta-line"><span class="label">24人已购</span></div>
               <div class="meta-line"><span class="label">发货地</span><span>${company.detailLocation}</span></div>
             </div>

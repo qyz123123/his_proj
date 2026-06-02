@@ -1,0 +1,5 @@
+### **Answering the Driving Question: What Products from US Tech Companies lead to The Adoption of Personal Computers**
+
+From 1960-2010, computer technologies had gone through numerous innovations, making computers become increasingly cheap, affordable, and comfortable to use. Ultimately, these progress lead to the widespread adoption of personal computers. There are fundamentally three factors behind the adoption of personal computers: hardware became more efficient and cost-effective, software became more user-friendly, and computers themselves evolved to become more convenient. Therefore, to answer the driving question, we must figure out what products in software, hardware and designing fundamentally changed the situation.
+
+After evaluating numerous breakthroughs in the history of computers, three products stand out. **The first microprocessor Intel 4004 significantly lowered the size and the price of computers, making computers possible for personal use; Windows 3.1 made using computers easier than ever by introducing graphical user interface; and MacBook Air changed the way computers should look and feel like.**

@@ -725,7 +725,7 @@ button {
 }
 
 .detail-main {
-  padding: 24px 24px 22px;
+  padding: 24px 26px 26px;
 }
 
 .detail-top {
@@ -843,35 +843,43 @@ button {
 }
 
 .detail-buy h1 {
-  margin: 0 0 12px;
-  font-size: 22px;
-  line-height: 1.35;
+  margin: 0 0 14px;
+  color: #222;
+  font-size: clamp(24px, 2vw, 32px);
+  line-height: 1.28;
+  font-weight: 800;
+  letter-spacing: 0;
 }
 
 .price-panel {
-  padding: 12px;
+  padding: 14px 16px;
   margin-bottom: 14px;
   border-radius: 6px;
   background: #fff2e8;
   display: grid;
-  gap: 8px;
+  gap: 10px;
+  color: #222;
+  font-size: 16px;
 }
 
 .price-line,
 .meta-line {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
+  line-height: 1.45;
 }
 
 .label {
   width: 72px;
   color: #777;
+  flex: 0 0 72px;
 }
 
 .detail-price {
   color: var(--tb-red);
-  font-size: 30px;
+  font-size: clamp(34px, 3vw, 44px);
+  line-height: 1;
   font-weight: 900;
 }
 
@@ -949,17 +957,17 @@ button {
 .buy-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
 }
 
 .buy-btn {
-  min-width: 166px;
-  height: 48px;
+  min-width: 178px;
+  height: 52px;
   border: 0;
   border-radius: 12px;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   box-shadow: none;
   cursor: pointer;
@@ -1066,48 +1074,52 @@ button {
 
 .detail-section h2 {
   margin: 0;
-  padding: 12px 16px;
+  padding: 14px 18px;
   border-bottom: 1px solid #eee;
   border-left: 3px solid var(--tb-orange);
   background: #fafafa;
   color: #222;
-  font-size: 16px;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 800;
 }
 
 .detail-section > .history-text,
 .detail-section > .markdown-detail,
 .detail-section > .history-timeline,
 .detail-section > .related-grid {
-  padding: 16px;
+  padding: 18px;
 }
 
 .history-text {
   margin: 0;
-  line-height: 1.8;
+  font-size: 16.5px;
+  line-height: 1.78;
   color: #444;
 }
 
 .markdown-detail h3 {
   margin: 0 0 14px;
   color: #222;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.35;
+  font-weight: 800;
 }
 
 .markdown-detail h4,
 .markdown-detail h5 {
   margin: 18px 0 10px;
   color: var(--tb-orange);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
+  font-weight: 800;
 }
 
 .markdown-detail p {
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   color: #444;
-  font-size: 18px;
-  line-height: 1.85;
+  font-size: 16.5px;
+  line-height: 1.78;
 }
 
 .markdown-image {
@@ -1145,12 +1157,13 @@ button {
 }
 
 .markdown-detail li {
-  padding: 9px 11px;
+  padding: 10px 12px;
   border: 1px solid #ffe0d1;
   border-radius: 6px;
   background: #fff9f5;
   color: #444;
-  line-height: 1.65;
+  font-size: 16px;
+  line-height: 1.68;
 }
 
 .detail-info-grid {
@@ -1373,6 +1386,62 @@ button {
 
   .detail-main {
     padding: 12px;
+  }
+
+  .detail-buy h1 {
+    font-size: 24px;
+  }
+
+  .price-panel {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .price-line,
+  .meta-line {
+    gap: 10px;
+  }
+
+  .label {
+    width: 64px;
+    flex-basis: 64px;
+  }
+
+  .detail-price {
+    font-size: 34px;
+  }
+
+  .buy-row {
+    gap: 10px;
+  }
+
+  .buy-btn {
+    flex: 1 1 150px;
+    min-width: 0;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .detail-section h2 {
+    padding: 12px 14px;
+    font-size: 18px;
+  }
+
+  .detail-section > .history-text,
+  .detail-section > .markdown-detail,
+  .detail-section > .history-timeline,
+  .detail-section > .related-grid {
+    padding: 14px;
+  }
+
+  .markdown-detail h3 {
+    font-size: 21px;
+  }
+
+  .markdown-detail p,
+  .history-text {
+    font-size: 16px;
+    line-height: 1.72;
   }
 
   .detail-tabs {
